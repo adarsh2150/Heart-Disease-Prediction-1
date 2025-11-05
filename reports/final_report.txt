@@ -1,0 +1,92 @@
+================================================================================
+HEART DISEASE PREDICTION SYSTEM - FINAL REPORT
+================================================================================
+
+Execution Date: 2025-11-05 14:19:31
+Dataset: Z-Alizadeh Sani Heart Disease Dataset
+
+--------------------------------------------------------------------------------
+DATASET INFORMATION
+--------------------------------------------------------------------------------
+Total Samples: 303
+Training Samples: 242 (80%)
+Testing Samples: 61 (20%)
+Total Features: 55
+Selected Features: 30
+
+--------------------------------------------------------------------------------
+MODEL PERFORMANCE RESULTS
+--------------------------------------------------------------------------------
+
+                 Model           Dataset  Accuracy  Precision   Recall  F1-Score  ROC-AUC
+   Logistic Regression      All Features  0.819672   0.769231 0.555556  0.645161 0.892765
+           Naive Bayes      All Features  0.393443   0.306122 0.833333  0.447761 0.548450
+    K-Nearest Neighbor      All Features  0.770492   0.625000 0.555556  0.588235 0.833979
+Support Vector Machine      All Features  0.819672   0.733333 0.611111  0.666667 0.882429
+         Decision Tree      All Features  0.819672   0.818182 0.500000  0.620690 0.720930
+         Random Forest      All Features  0.836066   0.833333 0.555556  0.666667 0.866925
+ Multilayer Perceptron      All Features  0.688525   0.000000 0.000000  0.000000 0.493540
+   Logistic Regression Selected Features  0.836066   0.750000 0.666667  0.705882 0.897933
+           Naive Bayes Selected Features  0.868852   0.812500 0.722222  0.764706 0.928941
+    K-Nearest Neighbor Selected Features  0.754098   0.588235 0.555556  0.571429 0.809432
+Support Vector Machine Selected Features  0.803279   0.687500 0.611111  0.647059 0.879845
+         Decision Tree Selected Features  0.819672   0.888889 0.444444  0.592593 0.704134
+         Random Forest Selected Features  0.852459   0.846154 0.611111  0.709677 0.842377
+ Multilayer Perceptron Selected Features  0.704918   0.000000 0.000000  0.000000 0.857881
+
+--------------------------------------------------------------------------------
+BEST PERFORMING MODEL
+--------------------------------------------------------------------------------
+Model: Naive Bayes
+
+Dataset: All Features
+  Accuracy:  0.3934 (39.34%)
+  Precision: 0.3061 (30.61%)
+  Recall:    0.8333 (83.33%)
+  F1-Score:  0.4478 (44.78%)
+  ROC-AUC:   0.5484 (54.84%)
+
+Dataset: Selected Features
+  Accuracy:  0.8689 (86.89%)
+  Precision: 0.8125 (81.25%)
+  Recall:    0.7222 (72.22%)
+  F1-Score:  0.7647 (76.47%)
+  ROC-AUC:   0.9289 (92.89%)
+
+--------------------------------------------------------------------------------
+SELECTED FEATURES
+--------------------------------------------------------------------------------
+ 1. Typical Chest Pain
+ 2. Age
+ 3. Atypical
+ 4. EF-TTE
+ 5. FBS
+ 6. Region RWMA
+ 7. TG
+ 8. BMI
+ 9. ESR
+10. BP
+11. PLT
+12. HTN
+13. K
+14. Weight
+15. Length
+16. Lymph
+17. WBC
+18. HB
+19. Na
+20. Tinversion
+21. LDL
+22. CR
+23. Neut
+24. BUN
+25. PR
+26. HDL
+27. DM
+28. Nonanginal
+29. Diastolic Murmur
+30. Dyspnea
+
+================================================================================
+END OF REPORT
+================================================================================

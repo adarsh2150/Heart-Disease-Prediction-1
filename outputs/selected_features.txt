@@ -1,0 +1,40 @@
+================================================================================
+SELECTED FEATURES (CFS with Best First Search)
+================================================================================
+
+Total features selected: 30
+Original features: 55
+Reduction: 45.5%
+
+Selected Features:
+--------------------------------------------------------------------------------
+ 1. Typical Chest Pain
+ 2. Age
+ 3. Atypical
+ 4. EF-TTE
+ 5. FBS
+ 6. Region RWMA
+ 7. TG
+ 8. BMI
+ 9. ESR
+10. BP
+11. PLT
+12. HTN
+13. K
+14. Weight
+15. Length
+16. Lymph
+17. WBC
+18. HB
+19. Na
+20. Tinversion
+21. LDL
+22. CR
+23. Neut
+24. BUN
+25. PR
+26. HDL
+27. DM
+28. Nonanginal
+29. Diastolic Murmur
+30. Dyspnea
