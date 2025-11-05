@@ -370,21 +370,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👥 Contributors
-
-- [Your Name] - Initial development and implementation
-
-## 📧 Contact
-
-For questions, suggestions, or collaboration opportunities:
-- Email: [your-email@example.com]
-- GitHub: [your-github-profile]
-
----
-
-**⭐ If you find this project helpful, please consider giving it a star!**
-
-**🔗 Connect:** [LinkedIn] | [Twitter] | [Portfolio]
 
 ---
 
